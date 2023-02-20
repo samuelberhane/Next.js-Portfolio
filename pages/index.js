@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Header } from "@/components";
+import { Banner, Header } from "@/components";
 
 export default function Home() {
   return (
@@ -18,8 +18,9 @@ export default function Home() {
           rel="stylesheet"
         ></link>
       </Head>
-      <main className="font-[Crimson Text]">
+      <main className="font-[Crimson Text] ">
         <Header />
+        <Banner />
       </main>
     </>
   );
