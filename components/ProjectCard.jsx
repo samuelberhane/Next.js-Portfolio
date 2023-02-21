@@ -15,12 +15,20 @@ const ProjectCard = ({ name, description, image, liveUrl, gitUrl }) => {
           <div className="px-4 md:px-8 lg:px-10 flex flex-col justify-center h-full w-full">
             <p className="font-semibold">{description}</p>
             <div className="flex justify-center items-center gap-4 mt-5 text-black">
-              <button className="bg-yellow-300 font-semibold rounded py-2 px-2 whitespace-nowrap flex gap-1 items-center">
+              <a
+                href={gitUrl}
+                target="_blank"
+                className="bg-yellow-300 font-semibold rounded py-2 px-2 whitespace-nowrap flex gap-1 items-center"
+              >
                 Source Code <AiFillGithub className="text-xl" />
-              </button>
-              <button className="bg-yellow-300 font-semibold rounded py-2 px-2 whitespace-nowrap flex gap-1 items-center">
+              </a>
+              <a
+                href={liveUrl}
+                target="_blank"
+                className="bg-yellow-300 font-semibold rounded py-2 px-2 whitespace-nowrap flex gap-1 items-center"
+              >
                 Live Demo <AiOutlineDeploymentUnit className="text-xl" />
-              </button>
+              </a>
             </div>
           </div>
         </div>

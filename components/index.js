@@ -4,5 +4,6 @@ import Floating from "./Floating";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import ProjectCard from "./ProjectCard";
+import Services from "./Services";
 
-export { Header, Banner, Floating, Skills, Projects, ProjectCard };
+export { Header, Banner, Floating, Skills, Projects, ProjectCard, Services };

@@ -10,6 +10,17 @@ export const skills = [
     shadow: "shadow-blue-200",
   },
   {
+    name: "tailwind",
+    image: "/image/skill/tailwind.jpg",
+    shadow: "shadow-black",
+  },
+  {
+    name: "sass",
+    image: "/image/skill/sass.png",
+    shadow: "shadow-red-200",
+  },
+
+  {
     name: "javascript",
     image: "/image/skill/js.png",
     shadow: "shadow-yellow-200",
@@ -38,6 +49,11 @@ export const skills = [
     name: "mongo db",
     image: "/image/skill/mongo.png",
     shadow: "shadow-green-200",
+  },
+  {
+    name: "sql",
+    image: "/image/skill/sql.jpg",
+    shadow: "shadow-black",
   },
   {
     name: "git",
