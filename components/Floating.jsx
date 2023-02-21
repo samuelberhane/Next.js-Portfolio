@@ -2,7 +2,7 @@ import React from "react";
 
 const Floating = ({ image, text1, text2 }) => {
   return (
-    <div className="flex items-center gap-4 shadow-lg shadow-blue-100 rounded-2xl px-6 md:px-10 md:py-2 z-40 bg-white py-1 text-black">
+    <div className="flex items-center gap-4 shadow-lg shadow-blue-100 rounded-2xl px-6 md:px-8 xl:px-10 2xl:px-12 md:py-2 z-40 bg-white py-1 text-black">
       <img
         src={image}
         alt="floatingImage"
