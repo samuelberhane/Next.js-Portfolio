@@ -8,8 +8,8 @@ const Services = () => {
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {services?.map((service, index) => (
-          <div className="flex justify-center shadow-md pb-2">
-            <div key={index}>
+          <div className="flex justify-center shadow-md  pb-2" key={index}>
+            <div>
               <img
                 src={service.image}
                 alt="serviceImage"

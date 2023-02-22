@@ -13,7 +13,7 @@ const Banner = () => {
     "Mern Stack Developer",
     "React Developer",
     "Next.js Developer",
-    "UI/UX Designer",
+    "Web Designer",
   ];
 
   useEffect(() => {

@@ -1,5 +1,12 @@
 import Head from "next/head";
-import { Banner, Header, Skills, Projects, Services } from "@/components";
+import {
+  Banner,
+  Header,
+  Skills,
+  Projects,
+  Services,
+  Contact,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -10,12 +17,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="font-[Crimson Text] ">
+      <main className="font-[Crimson Text] bg-black text-white">
         <Header />
         <Banner />
         <Skills />
         <Projects />
         <Services />
+        <Contact />
       </main>
     </>
   );

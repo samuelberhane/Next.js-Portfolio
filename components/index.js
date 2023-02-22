@@ -5,5 +5,15 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import ProjectCard from "./ProjectCard";
 import Services from "./Services";
+import Contact from "./Contact";
 
-export { Header, Banner, Floating, Skills, Projects, ProjectCard, Services };
+export {
+  Header,
+  Banner,
+  Floating,
+  Skills,
+  Projects,
+  ProjectCard,
+  Services,
+  Contact,
+};
