@@ -13,7 +13,7 @@ import { useModeContext } from "@/context/ModeContext";
 
 export default function Home() {
   const { darkTheme } = useModeContext();
-  console.log("mode", darkTheme);
+
   return (
     <>
       <Head>

@@ -2,10 +2,14 @@ import { MdNightsStay } from "react-icons/md";
 import { BsFillSunFill } from "react-icons/bs";
 import { useState } from "react";
 import { useModeContext } from "@/context/ModeContext";
+import { motion } from "framer-motion";
 
 const Header = () => {
   const { dispatch, darkTheme } = useModeContext();
   const [rightPosition, setRightPosition] = useState(true);
+  const [isOn, setIsOn] = useState(false);
+
+  const toggleSwitch = () => setIsOn(!isOn);
   const changeMode = () => {
     setRightPosition((prev) => !prev);
     dispatch({ type: "CHANGE_MODE" });
@@ -19,17 +23,20 @@ const Header = () => {
       <h1 className="font-[Satisfy] text-3xl lg:text-4xl text-blue-500 font-bold">
         User Name
       </h1>
+
       <div
-        className="gap-2 border-2 border-yellow-500 rounded-2xl relative w-[75px] h-[35px] bg-blue-100"
+        className={`w-[100px] h-[40px] bg-blue-100 flex items-center ${
+          rightPosition ? "justify-end" : "justify-start"
+        } rounded-3xl p-2 cursor-pointer relative`}
         onClick={changeMode}
       >
-        <BsFillSunFill className="absolute top-[50%] translate-y-[-50%] left-1 text-xl text-black" />
-        <MdNightsStay className="absolute top-[50%] translate-y-[-50%] right-1 text-xl text-black" />
-        <div
-          className={`absolute top-[50%] translate-y-[-50%] ${
-            rightPosition ? "right-1" : "left-1"
-          } duration-500 ease-in-out w-[25px] h-[25px] bg-blue-500 rounded-full z-30`}
+        <motion.div
+          className="w-[35px] h-[35px] bg-yellow-400 rounded-full z-[100]"
+          layout
+          transition={{ type: "spring" }}
         />
+        <BsFillSunFill className="absolute top-[50%] translate-y-[-50%] left-2 text-xl text-black" />
+        <MdNightsStay className="absolute top-[50%] translate-y-[-50%] right-2 text-xl text-black" />
       </div>
     </div>
   );

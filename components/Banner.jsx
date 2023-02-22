@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Floating } from ".";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
+import { IoLogoWhatsapp } from "react-icons/io";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
 const Banner = () => {
   const [skillText, setSkillText] = useState(0);
@@ -73,12 +76,37 @@ const Banner = () => {
           a nobis esse fuga, sit odio perferendis officia laudantium consectetur
           eos quae voluptatum assumenda quis.
         </p>
-        <button className="mt-5 rounded-3xl bg-blue-500 text-white font-bold text-xl md:text-2xl px-12 shadow-xl shadow-[#6098c9] py-3 ml-3">
-          Contact
-        </button>
-        <div className="flex justify-center gap-4 md:gap-8 mt-4 text-5xl md:text-7xl text-blue-500">
+        <motion.button
+          transition={{
+            duration: 1,
+            ease: "easeInOut",
+            repeat: Infinity,
+            repeatDelay: 1,
+          }}
+          initial={{ backgroundColor: "blue" }}
+          animate={{
+            scale: [0.9, 1, 0.9, 1],
+            backgroundColor: "#4FA6F6",
+          }}
+          className="mt-7  rounded-3xl text-white font-bold text-xl md:text-2xl px-12 shadow-xl shadow-[#6098c9] py-3 ml-3"
+        >
+          <Link
+            to="Contact"
+            spy={true}
+            smooth={true}
+            offset={-10}
+            duration={1000}
+            href="#Contact"
+          >
+            Contact
+          </Link>
+        </motion.button>
+
+        <div className="flex  justify-center gap-4 md:gap-8 mt-7 text-3xl md:text-5xl text-blue-500">
           <AiFillGithub />
           <AiFillLinkedin />
+          <MdEmail />
+          <IoLogoWhatsapp />
         </div>
       </div>
       <div className="py-20">
@@ -89,9 +117,14 @@ const Banner = () => {
             className="object-cover"
           />
           <motion.div
-            initial={{ left: -40 }}
-            whileInView={{ left: 2 }}
-            transition={{ duration: 3, type: "spring", bounce: 0.6 }}
+            initial={{ left: -40, opacity: 0.5 }}
+            whileInView={{ left: 2, opacity: 1 }}
+            transition={{
+              duration: 3,
+              type: "spring",
+              bounce: 0.6,
+              delay: 0.2,
+            }}
             className="absolute -top-10"
           >
             <Floating
@@ -101,9 +134,14 @@ const Banner = () => {
             />
           </motion.div>
           <motion.div
-            initial={{ right: -40 }}
-            whileInView={{ right: 2 }}
-            transition={{ duration: 3, type: "spring", bounce: 0.6 }}
+            initial={{ right: -40, opacity: 0.5 }}
+            whileInView={{ right: 2, opacity: 1 }}
+            transition={{
+              duration: 3,
+              type: "spring",
+              bounce: 0.6,
+              delay: 0.2,
+            }}
             className="absolute -top-10"
           >
             <Floating
@@ -113,9 +151,14 @@ const Banner = () => {
             />
           </motion.div>
           <motion.div
-            initial={{ left: -40 }}
-            whileInView={{ left: 2 }}
-            transition={{ duration: 3, type: "spring", bounce: 0.6 }}
+            initial={{ left: -40, opacity: 0.5 }}
+            whileInView={{ left: 2, opacity: 1 }}
+            transition={{
+              duration: 3,
+              type: "spring",
+              bounce: 0.6,
+              delay: 0.2,
+            }}
             className="absolute -bottom-16"
           >
             <Floating
@@ -125,9 +168,14 @@ const Banner = () => {
             />
           </motion.div>
           <motion.div
-            initial={{ right: -40 }}
-            whileInView={{ right: 2 }}
-            transition={{ duration: 3, type: "spring", bounce: 0.6 }}
+            initial={{ right: -40, opacity: 0.5 }}
+            whileInView={{ right: 2, opacity: 1 }}
+            transition={{
+              duration: 3,
+              type: "spring",
+              bounce: 0.6,
+              delay: 0.2,
+            }}
             className="absolute -bottom-16 right-2"
           >
             <Floating

@@ -4,10 +4,11 @@ import { RiProjector2Fill } from "react-icons/ri";
 import { MdContacts, MdMiscellaneousServices } from "react-icons/md";
 import { HiBriefcase } from "react-icons/hi";
 import { Link } from "react-scroll";
-import { motion } from "framer-motion";
+import { motion, useMotionValueEvent, useScroll } from "framer-motion";
 
 const FloatingNav = () => {
   const [active, setActive] = useState(0);
+
   const Menus = [
     { name: "Home", icon: <AiFillHome />, position: "translate-x-0" },
     { name: "Skills", icon: <HiBriefcase />, position: "translate-x-[60px]" },

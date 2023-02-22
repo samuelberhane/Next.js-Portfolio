@@ -1,15 +1,20 @@
-import { AiFillPhone } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { ImLocation2 } from "react-icons/im";
 import { IoLogoWhatsapp } from "react-icons/io";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div className="px-4 md:px-8 lg:px-12 mt-3 py-4 pb-8" id="Contact">
+    <div className="relative px-4 md:px-8 lg:px-12 mt-3 py-4 pb-8" id="Contact">
       <h1 className="font-[Satisfy] text-4xl lg:text-5xl text-blue-500 font-bold mb-6 text-center">
         Contact
       </h1>
-      <div className="flex flex-col lg:flex-row justify-between gap-8 lg:gap-4">
+      <motion.div
+        initial={{ bottom: -50, opacity: 0.9 }}
+        whileInView={{ bottom: 0, opacity: 1 }}
+        transition={{ delay: 0.5, duration: 1 }}
+        className="flex flex-col lg:flex-row justify-between gap-8 lg:gap-4 relative"
+      >
         <div className="flex justify-center">
           <div className="shadow-lg shadow-blue-100 p-6 w-[300px]">
             <div className="flex justify-center">
@@ -29,13 +34,6 @@ const Contact = () => {
               <p className="flex items-center gap-1">
                 <ImLocation2 className="text-blue-500" /> Addis Ababa, Ethiopia
               </p>
-              {/* 
-            <div className="flex flex-col  items-center gap-1 border-2 w-full p-2">
-              <AiFillPhone className="text-blue-500 text-xl" />
-              <p className="font-bold text-lg">Phone</p>
-              <p>+251945964269</p>
-              <p className="text-blue-500 cursor-pointer">Call Me</p>
-            </div> */}
 
               <div className="flex flex-col  items-center gap-1 border-2 w-full p-2">
                 <MdEmail className="text-blue-500 text-xl" />
@@ -76,7 +74,7 @@ const Contact = () => {
             </button>
           </div>
         </form>
-      </div>
+      </motion.div>
     </div>
   );
 };
