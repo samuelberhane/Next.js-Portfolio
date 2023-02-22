@@ -4,6 +4,6 @@
 
 @layer components {
   .input {
-    @apply px-4 py-3 rounded md:w-[80%] w-full outline-none mb-6 bg-blue-100 text-black shadow;
+    @apply px-4 py-3 rounded md:w-[90%] w-full outline-none mb-6 bg-[#252523be] text-white shadow-lg;
   }
 }

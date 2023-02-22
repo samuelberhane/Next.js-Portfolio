@@ -1,6 +1,7 @@
 import { projects } from "@/utils/projects";
 import { useState } from "react";
 import { ProjectCard } from ".";
+import { motion } from "framer-motion";
 
 const projectType = ["All", "React.js", "Next.js", "Node.js", "Firebase"];
 
@@ -43,7 +44,15 @@ const Projects = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 sm:gap-4 md:gap-8 pt-3">
           {projectsData?.map((project, index) => (
-            <ProjectCard {...project} key={index} />
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 5, type: "spring" }}
+              key={index}
+            >
+              <ProjectCard {...project} />
+            </motion.div>
           ))}
         </div>
       </div>

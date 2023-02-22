@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { AiFillHome } from "react-icons/ai";
 import { RiProjector2Fill } from "react-icons/ri";
 import { MdContacts, MdMiscellaneousServices } from "react-icons/md";
 import { HiBriefcase } from "react-icons/hi";
 import { Link } from "react-scroll";
+import { motion } from "framer-motion";
 
 const FloatingNav = () => {
   const [active, setActive] = useState(0);
@@ -24,7 +25,12 @@ const FloatingNav = () => {
   ];
 
   return (
-    <div className="fixed bottom-2 left-[50%] translate-x-[-50%] h-[50px] px-6 rounded-t-xl bg-[rgba(100,191,213,0.7)] text-white z-[70]">
+    <motion.div
+      initial={{ bottom: -10 }}
+      whileInView={{ bottom: 10 }}
+      transition={{ duration: 3, type: "spring" }}
+      className="fixed left-[50%] translate-x-[-50%] h-[50px] px-6 rounded-t-xl bg-[rgba(100,191,213,0.7)] text-white z-[70]"
+    >
       <ul className="flex relative">
         <div
           className={`bg-yellow-300 duration-500 ${Menus[active]?.position} border-4 border-gray-400 h-[65px] w-[65px] absolute
@@ -63,7 +69,7 @@ const FloatingNav = () => {
           ))}
         </div>
       </ul>
-    </div>
+    </motion.div>
   );
 };
 

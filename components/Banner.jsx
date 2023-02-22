@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Floating } from ".";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 const Banner = () => {
   const [skillText, setSkillText] = useState(0);
@@ -87,34 +88,54 @@ const Banner = () => {
             alt="programming"
             className="object-cover"
           />
-          <div className="absolute -top-10 left-2">
+          <motion.div
+            initial={{ left: -40 }}
+            whileInView={{ left: 2 }}
+            transition={{ duration: 3, type: "spring", bounce: 0.6 }}
+            className="absolute -top-10"
+          >
             <Floating
               image="/image/full.jpg"
               text1="Full Stack"
               text2="Developer"
             />
-          </div>
-          <div className="absolute -top-10 right-2">
+          </motion.div>
+          <motion.div
+            initial={{ right: -40 }}
+            whileInView={{ right: 2 }}
+            transition={{ duration: 3, type: "spring", bounce: 0.6 }}
+            className="absolute -top-10"
+          >
             <Floating
               image="/image/react.png"
               text1="React"
               text2="Developer"
             />
-          </div>
-          <div className="absolute -bottom-16 left-2">
+          </motion.div>
+          <motion.div
+            initial={{ left: -40 }}
+            whileInView={{ left: 2 }}
+            transition={{ duration: 3, type: "spring", bounce: 0.6 }}
+            className="absolute -bottom-16"
+          >
             <Floating
               image="/image/mern.png"
               text1="Mern Stack"
               text2="Developer"
             />
-          </div>
-          <div className="absolute -bottom-16 right-2">
+          </motion.div>
+          <motion.div
+            initial={{ right: -40 }}
+            whileInView={{ right: 2 }}
+            transition={{ duration: 3, type: "spring", bounce: 0.6 }}
+            className="absolute -bottom-16 right-2"
+          >
             <Floating
               image="/image/next.jpg"
               text1="Next.js"
               text2="Developer"
             />
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

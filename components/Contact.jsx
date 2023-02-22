@@ -62,7 +62,7 @@ const Contact = () => {
           />
         </div>
 
-        <form className="flex flex-col lg:items-end md:items-center lg:w-[35%] w-full">
+        <form className="flex flex-col lg:items-end md:items-center lg:w-[35%] w-full mt-10">
           <input type="text" placeholder="Full Name" className="input" />
           <input type="email" placeholder="Email Address" className="input" />
           <textarea
@@ -71,7 +71,7 @@ const Contact = () => {
             rows={10}
           ></textarea>
           <div className="flex justify-center  lg:w-[80%] w-full">
-            <button className="bg-blue-500 shadow-lg shadow-blue-50 px-12 py-4 rounded-2xl text-sm font-bold xl:text-lg whitespace-nowrap">
+            <button className="bg-blue-500 shadow-lg shadow-blue-50 text-white px-12 py-4 rounded-2xl text-sm font-bold xl:text-lg whitespace-nowrap">
               Send Message
             </button>
           </div>
