@@ -6,6 +6,7 @@ import {
   Projects,
   Services,
   Contact,
+  Footer,
 } from "@/components";
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
         <Projects />
         <Services />
         <Contact />
+        <Footer />
       </main>
     </>
   );

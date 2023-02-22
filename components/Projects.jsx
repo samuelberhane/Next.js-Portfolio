@@ -20,7 +20,7 @@ const Projects = () => {
   };
   return (
     <div className="px-4 md:px-8 lg:px-12 mb-10 py-3">
-      <h1 className="font-[Satisfy] text-4xl lg:text-5xl text-blue-500 font-bold mb-5">
+      <h1 className="font-[Satisfy] text-4xl lg:text-5xl text-blue-500 font-bold mb-5 text-center">
         Projects
       </h1>
 

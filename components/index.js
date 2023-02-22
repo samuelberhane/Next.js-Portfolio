@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import ProjectCard from "./ProjectCard";
 import Services from "./Services";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 export {
   Header,
@@ -16,4 +17,5 @@ export {
   ProjectCard,
   Services,
   Contact,
+  Footer,
 };
