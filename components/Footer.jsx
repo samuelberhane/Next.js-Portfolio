@@ -3,10 +3,12 @@ import { AiFillGithub } from "react-icons/ai";
 import { SiMessenger } from "react-icons/si";
 import { BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { useModeContext } from "@/context/ModeContext";
 
 const Footer = () => {
+  const { darkTheme } = useModeContext();
   return (
-    <div className="py-5 bg-gray-800">
+    <div className={`${darkTheme ? "bg-gray-900" : "bg-gray-100"} py-5`}>
       <h1 className="text-center text-2xl md:text-3xl lg:text-4xl font-bold">
         User Name
       </h1>

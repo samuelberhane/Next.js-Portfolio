@@ -9,8 +9,11 @@ import {
   Footer,
 } from "@/components";
 import FloatingNav from "@/components/FloatingNav";
+import { useModeContext } from "@/context/ModeContext";
 
 export default function Home() {
+  const { darkTheme } = useModeContext();
+  console.log("mode", darkTheme);
   return (
     <>
       <Head>
@@ -19,7 +22,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="font-[Crimson Text] bg-black text-white">
+      <main
+        className={`font-[Crimson Text] ${
+          darkTheme ? "bg-black text-white" : "text-black bg-white"
+        }`}
+      >
         <Header />
         <Banner />
         <Skills />

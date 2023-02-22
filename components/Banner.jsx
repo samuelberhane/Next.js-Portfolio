@@ -49,10 +49,10 @@ const Banner = () => {
   };
   return (
     <div
-      className="mt-[70px]  px-4 md:px-8 lg:px-12 grid grid-cols-1 lg:grid-cols-2 md:gap-18 lg:gap-8 xl:gap-20 2xl:gap-28"
+      className="mt-[20px]  px-4 md:px-8 lg:px-12 grid grid-cols-1 lg:grid-cols-2 md:gap-18 lg:gap-8 xl:gap-20 2xl:gap-28"
       id="Home"
     >
-      <div className="py-10">
+      <div className="py-5">
         <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-blue-500">
           Hi! I'm
         </h1>
