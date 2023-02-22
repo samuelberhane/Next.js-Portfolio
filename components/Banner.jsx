@@ -63,7 +63,7 @@ const Banner = () => {
         <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl xl:text-8xl my-3 whitespace-nowrap">
           User Name
         </h1>
-        <p className="mt-4 pl-2 text-lg md:text-2xl lg:text-4xl text-blue-500 font-semibold">
+        <p className="mt-4 pl-2 text-xl md:text-2xl lg:text-5xl text-blue-500 font-semibold">
           <span
             dataPeriod="1000"
             data-rotate='[ "Full Stack Web Developer", "Mern Stack Developer","React Developer","Next.js Developer","UI/UX Designer" ]'
@@ -71,10 +71,9 @@ const Banner = () => {
             <span className="wrap">{text}</span>
           </span>
         </p>
-        <p className="mt-4 pl-3 text-sm md:text-[17px]">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere illo
-          a nobis esse fuga, sit odio perferendis officia laudantium consectetur
-          eos quae voluptatum assumenda quis.
+        <p className="mt-5 pl-3 text-lg font-light lg:text-[20px] md:text-[17px]">
+          Build full-stack web application with interactive frontend design and
+          backend operations with the integration of REST API and database.
         </p>
         <motion.button
           transition={{
@@ -103,7 +102,10 @@ const Banner = () => {
         </motion.button>
 
         <div className="flex  justify-center gap-4 md:gap-8 mt-7 text-3xl md:text-5xl text-blue-500">
-          <AiFillGithub />
+          <a href="https://github.com/samuelberhane" target="_blank">
+            <AiFillGithub />
+          </a>
+
           <AiFillLinkedin />
           <MdEmail />
           <IoLogoWhatsapp />

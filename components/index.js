@@ -8,6 +8,8 @@ import Services from "./Services";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import FloatingNav from "./FloatingNav";
+import ContactForm from "./ContactForm";
+import Information from "./Information";
 
 export {
   Header,
@@ -19,4 +21,7 @@ export {
   Services,
   Contact,
   Footer,
+  FloatingNav,
+  ContactForm,
+  Information,
 };

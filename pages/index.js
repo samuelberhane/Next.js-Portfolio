@@ -10,6 +10,8 @@ import {
 } from "@/components";
 import FloatingNav from "@/components/FloatingNav";
 import { useModeContext } from "@/context/ModeContext";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Home() {
   const { darkTheme } = useModeContext();
@@ -36,6 +38,7 @@ export default function Home() {
         <Footer />
         <FloatingNav />
       </main>
+      <ToastContainer />
     </>
   );
 }

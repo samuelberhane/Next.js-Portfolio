@@ -21,8 +21,9 @@ const Services = () => {
           />
           <p className="font-bold mt-2">Web Design</p>
           <p className="text-sm font-light mt-2">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Asperiores, voluptatibus?
+            Prepare, design and maintain the structure, the overall layout and
+            aesthetic for websites. write coding for the entire website, create
+            website templates and run tests to preview layouts.
           </p>
         </motion.div>
         <div className="md:w-1/3  text-center text-sm md:text-[17px] flex flex-col gap-4">
@@ -39,8 +40,9 @@ const Services = () => {
             />
             <p className="font-bold mt-2">Frontend Web Development</p>
             <p className="text-sm font-light mt-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Asperiores, voluptatibus?
+              Writing clean and interactive code to develop and design the
+              overall look of a website for many platforms, including laptops
+              and smartphones, and enhance the user&#39;s experience.
             </p>
           </motion.div>
           <motion.div
@@ -56,8 +58,9 @@ const Services = () => {
             />
             <p className="font-bold mt-2">Backend Web Development</p>
             <p className="text-sm font-light mt-2">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Asperiores, voluptatibus?
+              Write code and tests, build prototypes, compile and analyze data,
+              processes, and codes to troubleshoot problems as well as design
+              robust APIs to support mobile and web applications.
             </p>
           </motion.div>
         </div>
@@ -74,26 +77,12 @@ const Services = () => {
           />
           <p className="font-bold mt-2">Database Handling</p>
           <p className="text-sm font-light mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Consequatur, ullam!
+            Create REST API with incorporation of databases,ensure safety of
+            stored data,troubleshoot database issues, and implement database
+            recovery procedures and safety protocols.
           </p>
-          =
         </motion.div>
       </div>
-      {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-        {services?.map((service, index) => (
-          <div className="flex justify-center shadow-md  pb-2" key={index}>
-            <div>
-              <img
-                src={service.image}
-                alt="serviceImage"
-                className="h-[200px]"
-              />
-              <p className="text-center font-bold mt-3">{service.name}</p>
-            </div>
-          </div>
-        ))}
-      </div> */}
     </div>
   );
 };
