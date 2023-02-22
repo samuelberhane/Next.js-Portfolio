@@ -5,13 +5,13 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 const Contact = () => {
   return (
-    <div className="px-4 md:px-8 lg:px-12 mt-3 py-4 pb-8">
+    <div className="px-4 md:px-8 lg:px-12 mt-3 py-4 pb-8" id="Contact">
       <h1 className="font-[Satisfy] text-4xl lg:text-5xl text-blue-500 font-bold mb-6 text-center">
         Contact
       </h1>
       <div className="flex flex-col lg:flex-row justify-between gap-8 lg:gap-4">
         <div className="flex justify-center">
-          <div className="shadow-lg shadow-blue-100 p-6 w-[350px]">
+          <div className="shadow-lg shadow-blue-100 p-6 w-[300px]">
             <div className="flex justify-center">
               <img
                 src="/image/person.jpg"

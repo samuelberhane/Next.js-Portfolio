@@ -7,6 +7,7 @@ import ProjectCard from "./ProjectCard";
 import Services from "./Services";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import FloatingNav from "./FloatingNav";
 
 export {
   Header,

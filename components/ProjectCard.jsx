@@ -5,7 +5,7 @@ const ProjectCard = ({ name, description, image, liveUrl, gitUrl }) => {
     <div className="flex justify-center mb-4">
       <div className="relative rounded h-[260px] shadow-lg group">
         <img src={image} alt="projectImage" className="w-full h-full" />
-        <h1 className="absolute top-0 left-0 w-full py-2 bg-[rgba(0,0,0,0.7)] text-white text-center font-semibold">
+        <h1 className="absolute top-0 left-0 w-full py-2 bg-[rgba(141,147,75,0.7)] text-white text-center font-semibold">
           {name}
         </h1>
         <div

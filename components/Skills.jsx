@@ -2,7 +2,7 @@ import { skills } from "../utils/skills";
 
 const Skills = () => {
   return (
-    <div className="px-4 md:px-8 lg:px-12 mt-3 py-4">
+    <div className="px-4 md:px-8 lg:px-12 mt-3 py-4" id="Skills">
       <h1 className="font-[Satisfy] text-4xl lg:text-5xl text-blue-500 font-bold mb-6 text-center">
         Skills
       </h1>

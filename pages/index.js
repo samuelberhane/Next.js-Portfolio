@@ -8,6 +8,7 @@ import {
   Contact,
   Footer,
 } from "@/components";
+import FloatingNav from "@/components/FloatingNav";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <Services />
         <Contact />
         <Footer />
+        <FloatingNav />
       </main>
     </>
   );

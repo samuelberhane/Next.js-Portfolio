@@ -2,7 +2,7 @@ import { services } from "@/utils/services";
 
 const Services = () => {
   return (
-    <div className="px-4 md:px-8 lg:px-12 mt-3 py-4">
+    <div className="px-4 md:px-8 lg:px-12 mt-3 py-4" id="Services">
       <h1 className="font-[Satisfy] text-4xl lg:text-5xl text-blue-500 font-bold mb-6 text-center">
         Services
       </h1>
