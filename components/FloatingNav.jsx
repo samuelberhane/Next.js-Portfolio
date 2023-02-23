@@ -4,7 +4,7 @@ import { RiProjector2Fill } from "react-icons/ri";
 import { MdContacts, MdMiscellaneousServices } from "react-icons/md";
 import { HiBriefcase } from "react-icons/hi";
 import { Link } from "react-scroll";
-import { motion, useMotionValueEvent, useScroll } from "framer-motion";
+import { motion } from "framer-motion";
 
 const FloatingNav = () => {
   const [active, setActive] = useState(0);
@@ -27,8 +27,8 @@ const FloatingNav = () => {
 
   return (
     <motion.div
-      initial={{ bottom: -10 }}
-      whileInView={{ bottom: 10 }}
+      initial={{ bottom: -5 }}
+      whileInView={{ bottom: 2 }}
       transition={{ duration: 3, type: "spring" }}
       className="fixed left-[50%] translate-x-[-50%] h-[50px] px-6 rounded-t-xl bg-[rgba(100,191,213,0.7)] text-white z-[70]"
     >

@@ -14,7 +14,7 @@ const Information = () => {
           />
         </div>
         <h1 className="text-lg md:text-xl lg:text-2xl text-center mt-1 text-blue-500 font-bold">
-          User Name
+          Samuel Brhane
         </h1>
         <p className="my-1 text-center font-bold text-lg">
           Full Stack Web Developer
@@ -27,15 +27,26 @@ const Information = () => {
           <div className="flex flex-col  items-center gap-1 border-2 w-full p-2">
             <MdEmail className="text-blue-500 text-xl" />
             <p className="font-bold text-lg">Email</p>
-            <p>1samibrhane@gmail.com</p>
-            <p className="text-blue-500 cursor-pointer">Send a message</p>
+            <p>1samuelbrhane@gmail.com</p>
+            <a
+              href={`mailto:1samuelbrhane@gmail.com?`}
+              className="text-blue-500"
+            >
+              Send a message
+            </a>
           </div>
 
           <div className="flex flex-col  items-center gap-1 border-2 w-full p-2">
             <IoLogoWhatsapp className="text-blue-500 text-xl" />
             <p className="font-bold text-lg">Whatsapp</p>
             <p>+251945964269</p>
-            <p className="text-blue-500 cursor-pointer">Send a message</p>
+            <a
+              href=" https://wa.me/251945964269"
+              target="_blank"
+              className="text-blue-500"
+            >
+              Send a message
+            </a>
           </div>
         </div>
       </div>

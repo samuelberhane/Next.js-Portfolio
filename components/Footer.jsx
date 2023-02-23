@@ -10,14 +10,31 @@ const Footer = () => {
   return (
     <div className={`${darkTheme ? "bg-gray-900" : "bg-gray-100"} py-5`}>
       <h1 className="text-center text-2xl md:text-3xl lg:text-4xl font-bold">
-        User Name
+        Samuel Brhane
       </h1>
-      <div className="flex items-center justify-center text-xl md:text-2xl gap-4 text-blue-500 my-3 md:my-4">
-        <BsLinkedin />
-        <AiFillGithub />
-        <IoLogoWhatsapp />
-        <SiMessenger />
-        <MdEmail />
+      <div className="flex items-center justify-center text-xl md:text-2xl gap-4 text-blue-500 my-4 mb-6">
+        {/* github */}
+        <a href="https://github.com/samuelberhane" target="_blank">
+          <AiFillGithub />
+        </a>
+
+        {/* Linkedin */}
+        <a
+          href="https://www.linkedin.com/in/samuel-brhane-406759267/"
+          target="_blank"
+        >
+          <BsLinkedin />
+        </a>
+
+        {/* Email */}
+        <a href={`mailto:1samuelbrhane@gmail.com?`}>
+          <MdEmail />
+        </a>
+
+        {/* Whatsapp */}
+        <a href=" https://wa.me/251945964269" target="_blank">
+          <IoLogoWhatsapp />
+        </a>
       </div>
       <p className="text-center text-light">
         &copy; Samuel. All rights reserved.

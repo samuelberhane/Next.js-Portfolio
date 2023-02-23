@@ -21,7 +21,7 @@ const Header = () => {
       } shadow`}
     >
       <h1 className="font-[Satisfy] text-3xl lg:text-4xl text-blue-500 font-bold">
-        User Name
+        Samuel Brhane
       </h1>
 
       <div

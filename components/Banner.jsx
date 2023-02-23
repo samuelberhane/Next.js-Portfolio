@@ -60,8 +60,8 @@ const Banner = () => {
         <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-blue-500">
           Hi! I'm
         </h1>
-        <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl xl:text-8xl my-3 whitespace-nowrap">
-          User Name
+        <h1 className="font-bold text-4xl lg:text-5xl xl:text-6xl my-3 whitespace-nowrap">
+          Samuel Brhane
         </h1>
         <p className="mt-4 pl-2 text-xl md:text-2xl lg:text-5xl text-blue-500 font-semibold">
           <span
@@ -102,13 +102,28 @@ const Banner = () => {
         </motion.button>
 
         <div className="flex  justify-center gap-4 md:gap-8 mt-7 text-3xl md:text-5xl text-blue-500">
+          {/* Github */}
           <a href="https://github.com/samuelberhane" target="_blank">
             <AiFillGithub />
           </a>
 
-          <AiFillLinkedin />
-          <MdEmail />
-          <IoLogoWhatsapp />
+          {/* Linkedin */}
+          <a
+            href="https://www.linkedin.com/in/samuel-brhane-406759267/"
+            target="_blank"
+          >
+            <AiFillLinkedin />
+          </a>
+
+          {/* Email */}
+          <a href={`mailto:1samuelbrhane@gmail.com?`}>
+            <MdEmail />
+          </a>
+
+          {/* Whatsapp */}
+          <a href=" https://wa.me/251945964269" target="_blank">
+            <IoLogoWhatsapp />
+          </a>
         </div>
       </div>
       <div className="py-20">
