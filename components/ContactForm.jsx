@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { toast } from "react-toastify";
 import { motion } from "framer-motion";
+import axios from "axios";
 const toastOptions = {
   position: "top-right",
   autoClose: 5000,
@@ -12,19 +13,35 @@ const toastOptions = {
   theme: "colored",
 };
 
+const config = {};
+
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
-  const handleSubmit = (e) => {
+
+  // cfca8b16-616a-4379-b57e-b85a3e93f643
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const { name, email, message } = formData;
     if (!name) return toast.error("Please, write your name.", toastOptions);
     if (!email) return toast.error("Please, write your email.", toastOptions);
     if (!message)
       return toast.error("Please, write your message.", toastOptions);
+
+    const response = await fetch("/api/email", {
+      method: "POST",
+      body: JSON.stringify({ ...formData }),
+    });
+
+    if (response.status === 200) {
+      toast.success("Thank you for getting in touch with me.", toastOptions);
+      setFormData({ name: "", email: "", message: "" });
+    } else {
+      toast.error("Email can not be send.", toastOptions);
+    }
   };
 
   return (

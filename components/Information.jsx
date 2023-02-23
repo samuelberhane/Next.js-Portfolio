@@ -30,7 +30,7 @@ const Information = () => {
             <p>1samuelbrhane@gmail.com</p>
             <a
               href={`mailto:1samuelbrhane@gmail.com?`}
-              className="text-blue-500"
+              className="text-blue-500 hover:scale-105 hover:text-blue-400"
             >
               Send a message
             </a>
@@ -43,7 +43,7 @@ const Information = () => {
             <a
               href=" https://wa.me/251945964269"
               target="_blank"
-              className="text-blue-500"
+              className="text-blue-500 hover:scale-105 hover:text-blue-400"
             >
               Send a message
             </a>

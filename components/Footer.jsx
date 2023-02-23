@@ -14,12 +14,17 @@ const Footer = () => {
       </h1>
       <div className="flex items-center justify-center text-xl md:text-2xl gap-4 text-blue-500 my-4 mb-6">
         {/* github */}
-        <a href="https://github.com/samuelberhane" target="_blank">
+        <a
+          className="hover:scale-110 hover:text-blue-400"
+          href="https://github.com/samuelberhane"
+          target="_blank"
+        >
           <AiFillGithub />
         </a>
 
         {/* Linkedin */}
         <a
+          className="hover:scale-110 hover:text-blue-400"
           href="https://www.linkedin.com/in/samuel-brhane-406759267/"
           target="_blank"
         >
@@ -27,12 +32,19 @@ const Footer = () => {
         </a>
 
         {/* Email */}
-        <a href={`mailto:1samuelbrhane@gmail.com?`}>
+        <a
+          className="hover:scale-110 hover:text-blue-400"
+          href={`mailto:1samuelbrhane@gmail.com?`}
+        >
           <MdEmail />
         </a>
 
         {/* Whatsapp */}
-        <a href=" https://wa.me/251945964269" target="_blank">
+        <a
+          className="hover:scale-110 hover:text-blue-400"
+          href=" https://wa.me/251945964269"
+          target="_blank"
+        >
           <IoLogoWhatsapp />
         </a>
       </div>

@@ -53,12 +53,17 @@ const Intro = ({ text }) => {
 
       <div className="flex  justify-center gap-4 md:gap-8 mt-7 text-3xl md:text-5xl text-blue-500">
         {/* Github */}
-        <a href="https://github.com/samuelberhane" target="_blank">
+        <a
+          href="https://github.com/samuelberhane"
+          target="_blank"
+          className="hover:scale-110 hover:text-blue-400"
+        >
           <AiFillGithub />
         </a>
 
         {/* Linkedin */}
         <a
+          className="hover:scale-110 hover:text-blue-400"
           href="https://www.linkedin.com/in/samuel-brhane-406759267/"
           target="_blank"
         >
@@ -66,12 +71,19 @@ const Intro = ({ text }) => {
         </a>
 
         {/* Email */}
-        <a href={`mailto:1samuelbrhane@gmail.com?`}>
+        <a
+          className="hover:scale-110 hover:text-blue-400"
+          href={`mailto:1samuelbrhane@gmail.com?`}
+        >
           <MdEmail />
         </a>
 
         {/* Whatsapp */}
-        <a href=" https://wa.me/251945964269" target="_blank">
+        <a
+          className="hover:scale-110 hover:text-blue-400"
+          href=" https://wa.me/251945964269"
+          target="_blank"
+        >
           <IoLogoWhatsapp />
         </a>
       </div>
