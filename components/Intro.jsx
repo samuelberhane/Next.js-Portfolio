@@ -14,10 +14,7 @@ const Intro = ({ text }) => {
         Samuel Brhane
       </h1>
       <p className="mt-4 pl-2 text-xl md:text-2xl lg:text-5xl text-blue-500 font-semibold">
-        <span
-          dataPeriod="1000"
-          data-rotate='[ "Full Stack Web Developer", "Mern Stack Developer","React Developer","Next.js Developer","UI/UX Designer" ]'
-        >
+        <span data-rotate='[ "Full Stack Web Developer", "Mern Stack Developer","React Developer","Next.js Developer","UI/UX Designer" ]'>
           <span className="wrap">{text}</span>
         </span>
       </p>
