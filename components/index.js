@@ -10,6 +10,7 @@ import Footer from "./Footer";
 import FloatingNav from "./FloatingNav";
 import ContactForm from "./ContactForm";
 import Information from "./Information";
+import Intro from "./Intro";
 
 export {
   Header,
@@ -24,4 +25,5 @@ export {
   FloatingNav,
   ContactForm,
   Information,
+  Intro,
 };
