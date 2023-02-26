@@ -8,7 +8,7 @@ const Intro = ({ text }) => {
   return (
     <div className="py-5">
       <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-blue-500">
-        Hi! I'm
+        Hi! I&apos;m
       </h1>
       <h1 className="font-bold text-4xl lg:text-5xl xl:text-6xl my-3 whitespace-nowrap">
         Samuel Brhane
@@ -53,6 +53,7 @@ const Intro = ({ text }) => {
         <a
           href="https://github.com/samuelberhane"
           target="_blank"
+          rel="noreferrer"
           className="hover:scale-110 hover:text-blue-400"
         >
           <AiFillGithub />
@@ -63,6 +64,7 @@ const Intro = ({ text }) => {
           className="hover:scale-110 hover:text-blue-400"
           href="https://www.linkedin.com/in/samuel-brhane-406759267/"
           target="_blank"
+          rel="noreferrer"
         >
           <AiFillLinkedin />
         </a>
@@ -80,6 +82,7 @@ const Intro = ({ text }) => {
           className="hover:scale-110 hover:text-blue-400"
           href=" https://wa.me/251945964269"
           target="_blank"
+          rel="noreferrer"
         >
           <IoLogoWhatsapp />
         </a>

@@ -22,6 +22,7 @@ const ProjectCard = ({ name, description, image, liveUrl, gitUrl }) => {
               <a
                 href={gitUrl}
                 target="_blank"
+                rel="noreferrer"
                 className="bg-yellow-300 font-semibold rounded py-2 px-2 whitespace-nowrap flex gap-1 items-center"
               >
                 Source Code <AiFillGithub className="text-xl" />
@@ -29,6 +30,7 @@ const ProjectCard = ({ name, description, image, liveUrl, gitUrl }) => {
               <a
                 href={liveUrl}
                 target="_blank"
+                rel="noreferrer"
                 className="bg-yellow-300 font-semibold rounded py-2 px-2 whitespace-nowrap flex gap-1 items-center"
               >
                 Live Demo <AiOutlineDeploymentUnit className="text-xl" />

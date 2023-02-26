@@ -18,6 +18,7 @@ const Footer = () => {
           className="hover:scale-110 hover:text-blue-400"
           href="https://github.com/samuelberhane"
           target="_blank"
+          rel="noreferrer"
         >
           <AiFillGithub />
         </a>
@@ -27,6 +28,7 @@ const Footer = () => {
           className="hover:scale-110 hover:text-blue-400"
           href="https://www.linkedin.com/in/samuel-brhane-406759267/"
           target="_blank"
+          rel="noreferrer"
         >
           <BsLinkedin />
         </a>
@@ -44,6 +46,7 @@ const Footer = () => {
           className="hover:scale-110 hover:text-blue-400"
           href=" https://wa.me/251945964269"
           target="_blank"
+          rel="noreferrer"
         >
           <IoLogoWhatsapp />
         </a>
