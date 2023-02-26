@@ -2,7 +2,8 @@ export const projects = [
   {
     id: 1,
     name: "Daily Meal",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description:
+      "Food delivery app using Next.js,Node.js and payment method using Paypal and Stripe.",
     image: "/image/project/delivery.png",
     liveUrl: "https://food-delivery-app-samuelberhane.vercel.app",
     gitUrl: "https://github.com/samuelberhane/food-delivery-app",
@@ -11,7 +12,8 @@ export const projects = [
   {
     id: 2,
     name: "Talkline",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description:
+      "React social media app like facebook to create post,delete post,follow and un-follow friend,and chat with them.",
     image: "/image/project/talkline.png",
     liveUrl: "https://talkline-facebook-samuelberhane.vercel.app",
     gitUrl: "https://github.com/samuelberhane/mern-talkline",
@@ -20,7 +22,7 @@ export const projects = [
   {
     id: 3,
     name: "YouTube Clone",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description: "Youtube clone to search,watch and comment on videos.",
     image: "/image/project/youtube.png",
     liveUrl: "https://react-youtube-clone-samuelberhane.vercel.app",
     gitUrl: "https://github.com/samuelberhane/react-youtube-clone",
@@ -29,7 +31,8 @@ export const projects = [
   {
     id: 4,
     name: "Stream",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description:
+      "Netflix clone to subscribe as a user and watch movie trailers.",
     image: "/image/project/stream.png",
     liveUrl: "https://nextjs-stream-movie-app-samuelberhane.vercel.app",
     gitUrl: "https://github.com/samuelberhane/Nextjs-stream-movie-app",
@@ -38,7 +41,7 @@ export const projects = [
   {
     id: 5,
     name: "Realtor Clone",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description: "Realtor clone to add,delete houses and contact owners.",
     image: "/image/project/realtor.png",
     liveUrl: "https://react-realtor-samuelberhane.vercel.app",
     gitUrl: "https://github.com/samuelberhane/React-realtor",
@@ -47,7 +50,8 @@ export const projects = [
   {
     id: 6,
     name: "Amazon Clone",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description:
+      "Amazon clone for buying products using stripe payment method.",
     image: "/image/project/amazon.png",
     liveUrl: "https://nextjs-amazon-samuelberhane.vercel.app",
     gitUrl: "https://github.com/samuelberhane/nextjs-amazon-clone",
@@ -56,7 +60,8 @@ export const projects = [
   {
     id: 7,
     name: "Spotify Clone",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description:
+      "Spotify clone with the same functionality for listening songs.",
     image: "/image/project/spotify.png",
     liveUrl: "https://next-spotify-clone-samuelberhane.vercel.app",
     gitUrl: "https://github.com/samuelberhane/Next-spotify-clone",
@@ -64,26 +69,46 @@ export const projects = [
   },
   {
     id: 8,
+    name: "Shoppers",
+    description:
+      "An e-commerce app using React,Firebase and Node.js for buying clothes.",
+    image: "/image/project/shoppers.png",
+    liveUrl: "https://react-shopper-samuelberhane.vercel.app",
+    gitUrl: "https://github.com/samuelberhane/React-Shopper",
+    tools: ["React.js", "Firebase", "Node.js"],
+  },
+  {
+    id: 9,
+    name: "Whatsapp Clone",
+    description: "Whatsapp clone for chatting with friends by add their email.",
+    image: "/image/project/whatsapp.png",
+    liveUrl: "https://next-js-whatsapp-clone-samuelberhane.vercel.app",
+    gitUrl: "https://github.com/samuelberhane/Next.js-whatsapp-clone",
+    tools: ["Next.js", "Firebase"],
+  },
+  {
+    id: 10,
     name: "Twitter Clone",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description: "Twitter clone for adding,liking and commenting on posts.",
     image: "/image/project/twitter.png",
     liveUrl: "https://nextjs-twitter-samuelberhane.vercel.app",
     gitUrl: "https://github.com/samuelberhane/nextjs-twitter-clone",
     tools: ["Next.js", "Firebase"],
   },
   {
-    id: 9,
+    id: 11,
     name: "Apple Clone",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description:
+      "Apple clone for buying apple products such as Laptop,iPad,iPhone and Watches.",
     image: "/image/project/apple.png",
     liveUrl: "https://next-apple-clone-samuelberhane.vercel.app",
     gitUrl: "https://github.com/samuelberhane/Next-apple-clone",
     tools: ["Next.js", "Firebase"],
   },
   {
-    id: 10,
+    id: 12,
     name: "Fun Filled",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    description: "Social media app for posting fun moments.",
     image: "/image/project/funfilled.png",
     liveUrl: "https://funfilled-app-samuelberhane.vercel.app",
     gitUrl: "https://github.com/samuelberhane/funfilled-app-frontend",

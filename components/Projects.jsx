@@ -29,9 +29,9 @@ const Projects = () => {
 
       <div className="flex flex-col md:flex-row md:gap-4 lg:gap-6">
         <motion.div
-          initial={{ left: -20, opacity: 0.4 }}
+          initial={{ left: -20, opacity: 0.8 }}
           whileInView={{ left: 0, opacity: 1 }}
-          transition={{ duration: 2, type: "spring", bounce: 0.2, delay: 0.3 }}
+          transition={{ duration: 2, type: "spring", bounce: 0.2, delay: 0.2 }}
           className="relative flex flex-col  items-center"
         >
           {projectType?.map((type, index) => (
