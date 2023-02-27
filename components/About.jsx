@@ -7,11 +7,11 @@ const About = () => {
   return (
     <div className="px-4 md:px-8 lg:px-12 mt-3 py-4" id="About">
       <h1 className="font-[Satisfy] text-4xl lg:text-5xl text-blue-500 font-bold mb-2 lg:mb-5 text-center">
-        About
+        About me
       </h1>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8 lg:gap-12">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8 lg:gap-18">
         <div className="mt-4">
-          <div className="xl:w-[70%] text-sm font-light xl:text-[16px] flex flex-col gap-2">
+          <div className="lg:w-[80%] text-sm font-light xl:text-[16px] flex flex-col lg:gap-5 gap-2">
             <p>
               Hello! I&apos;m Samuel Brhane, a Mern stack developer with the
               experience in developing full-stack web applications. My expertise
