@@ -1,9 +1,7 @@
-import { useModeContext } from "@/context/ModeContext";
 import { frameworks } from "@/utils/frameworks";
 import { tools } from "@/utils/tools";
 
 const About = () => {
-  const { darkTheme } = useModeContext();
   return (
     <div className="px-4 md:px-8 lg:px-12 mt-3 py-4" id="About">
       <h1 className="font-[Satisfy] text-4xl lg:text-5xl text-blue-500 font-bold mb-2 lg:mb-5 text-center">
