@@ -2,7 +2,7 @@ import Head from "next/head";
 import {
   Banner,
   Header,
-  Skills,
+  About,
   Projects,
   Services,
   Contact,
@@ -31,7 +31,7 @@ export default function Home() {
       >
         <Header />
         <Banner />
-        <Skills />
+        <About />
         <Projects />
         <Services />
         <Contact />

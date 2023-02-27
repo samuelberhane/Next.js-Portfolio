@@ -1,7 +1,7 @@
 import Header from "./Header";
 import Banner from "./Banner";
 import Floating from "./Floating";
-import Skills from "./Skills";
+import About from "./About";
 import Projects from "./Projects";
 import ProjectCard from "./ProjectCard";
 import Services from "./Services";
@@ -16,7 +16,7 @@ export {
   Header,
   Banner,
   Floating,
-  Skills,
+  About,
   Projects,
   ProjectCard,
   Services,

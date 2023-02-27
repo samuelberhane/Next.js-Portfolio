@@ -62,7 +62,7 @@ const Banner = () => {
             className="object-cover"
           />
           <motion.div
-            initial={{ left: -40, opacity: 0.5 }}
+            initial={{ left: -20, opacity: 0.5 }}
             whileInView={{ left: 2, opacity: 1 }}
             transition={{
               duration: 3,
@@ -79,7 +79,7 @@ const Banner = () => {
             />
           </motion.div>
           <motion.div
-            initial={{ right: -40, opacity: 0.5 }}
+            initial={{ right: -20, opacity: 0.5 }}
             whileInView={{ right: 2, opacity: 1 }}
             transition={{
               duration: 3,
@@ -96,7 +96,7 @@ const Banner = () => {
             />
           </motion.div>
           <motion.div
-            initial={{ left: -40, opacity: 0.5 }}
+            initial={{ left: -20, opacity: 0.5 }}
             whileInView={{ left: 2, opacity: 1 }}
             transition={{
               duration: 3,
@@ -113,7 +113,7 @@ const Banner = () => {
             />
           </motion.div>
           <motion.div
-            initial={{ right: -40, opacity: 0.5 }}
+            initial={{ right: -20, opacity: 0.5 }}
             whileInView={{ right: 2, opacity: 1 }}
             transition={{
               duration: 3,
