@@ -34,7 +34,7 @@ const Intro = ({ text }) => {
           scale: [0.9, 1, 0.9, 1],
           backgroundColor: "#4FA6F6",
         }}
-        className="mt-7  rounded-3xl text-white font-bold text-xl md:text-2xl px-12 shadow-xl shadow-[#6098c9] py-3 ml-3"
+        className="mt-7  rounded-3xl text-white font-bold text-xl md:text-2xl px-12 shadow-xl  py-3 ml-3"
       >
         <Link
           to="Contact"

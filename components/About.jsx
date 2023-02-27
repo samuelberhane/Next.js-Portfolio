@@ -53,7 +53,7 @@ const About = () => {
             {frameworks?.map((skill, index) => (
               <div key={index} className={`flex justify-center mb-6`}>
                 <div
-                  className={`px-10 py-3 shadow-lg shadow-blue-50 bg-white rounded`}
+                  className={`px-10 py-3 shadow-sm shadow-black bg-white rounded`}
                 >
                   <img
                     src={skill?.image}
@@ -69,7 +69,7 @@ const About = () => {
             {tools?.map((skill, index) => (
               <div key={index} className={`flex justify-center mb-6`}>
                 <div
-                  className={`px-10 py-3 shadow-lg shadow-blue-50 bg-white rounded`}
+                  className={`px-10 py-3 shadow-sm shadow-black bg-white rounded`}
                 >
                   <img
                     src={skill?.image}

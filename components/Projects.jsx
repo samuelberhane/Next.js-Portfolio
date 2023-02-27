@@ -43,9 +43,7 @@ const Projects = () => {
               onClick={() => handleChange(index)}
               key={index}
               className={`mb-4 mt-2 text-center rounded-3xl w-[200px]  ${
-                currentIndex === index
-                  ? "bg-[#D8CF0A] shadow-[#b9c960]"
-                  : "bg-blue-500 shadow-[#6098c9]"
+                currentIndex === index ? "bg-[#D8CF0A]" : "bg-blue-500"
               }  text-white font-bold text-lg lg:text-xl shadow-xl  py-3 cursor-pointer`}
             >
               {type}

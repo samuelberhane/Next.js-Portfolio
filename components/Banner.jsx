@@ -8,6 +8,7 @@ const Banner = () => {
   const [text, setText] = useState("");
   const [time, setTime] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
+
   const rotateSkills = [
     "Full Stack Web Developer",
     "Mern Stack Developer",
@@ -28,12 +29,17 @@ const Banner = () => {
 
   const tick = () => {
     let i = skillText % rotateSkills.length;
+    console.log("i", i);
     let fullText = rotateSkills[i];
     let updatedText = deleting
       ? fullText.substring(0, text.length - 1)
       : fullText.substring(0, text.length + 1);
+    if (updatedText === "") {
+      setText("|");
+    } else {
+      setText(updatedText);
+    }
 
-    setText(updatedText);
     if (!deleting && updatedText === fullText) {
       setDeleting(true);
       setIndex((prevIndex) => prevIndex - 1);

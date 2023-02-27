@@ -86,7 +86,7 @@ const ContactForm = () => {
             scale: [0.9, 1, 0.9, 1],
             backgroundColor: "#4FA6F6",
           }}
-          className="rounded-3xl text-white font-bold text-lg px-16 shadow-xl shadow-[#6098c9] py-3 ml-3"
+          className="rounded-3xl text-white font-bold text-lg px-16 shadow-xl py-3 ml-3"
         >
           Send
         </motion.button>
