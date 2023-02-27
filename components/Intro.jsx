@@ -14,13 +14,13 @@ const Intro = ({ text }) => {
         Samuel Brhane
       </h1>
       <p className="mt-4 pl-2 text-xl md:text-2xl lg:text-5xl text-blue-500 font-semibold">
-        <span data-rotate='[ "Full Stack Web Developer", "Mern Stack Developer","React Developer","Next.js Developer","UI/UX Designer" ]'>
+        <span data-rotate='[ "Full Stack Web Developer", "MERN Stack Developer","React Developer","Next.js Developer","UI/UX Designer" ]'>
           <span className="wrap">{text}</span>
         </span>
       </p>
-      <p className="mt-5 pl-3 text-lg font-light lg:text-[20px] md:text-[17px]">
-        Build full-stack web application with interactive frontend design and
-        backend operations with the integration of REST API and database.
+      <p className="mt-5 pl-3 font-light text-sm md:text-[17px]">
+        I am Full Stack developer specialized in design,development and
+        deployment of MERN stack web applications.
       </p>
       <motion.button
         transition={{
