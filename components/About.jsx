@@ -13,7 +13,7 @@ const About = () => {
         <div className="mt-4">
           <div className="xl:w-[70%] text-sm font-light xl:text-[16px] flex flex-col gap-2">
             <p>
-              Hello! I'm Samuel Brhane, a Mern stack developer with the
+              Hello! I&apos;m Samuel Brhane, a Mern stack developer with the
               experience in developing full-stack web applications. My expertise
               mainly lies in working with the MERN stack, which includes
               MongoDB, Express.js, React, and Node.js.
@@ -23,24 +23,25 @@ const About = () => {
               Redux for the front-end, Node.js and Firebase for the back-end,
               and MongoDB for the database. I have experience integrating
               third-party APIs and services to create dynamic web applications.
-              I'm also familiar with other popular front-end frameworks and
+              I&apos;m also familiar with other popular front-end frameworks and
               libraries such as Next.js and React Native.
             </p>
             <p>
-              In addition to my technical skills, I'm a strong communicator and
-              a problem-solver. I enjoy working in a collaborative environment
-              and thrive in fast-paced development environments.
+              In addition to my technical skills, I&apos;m a strong communicator
+              and a problem-solver. I enjoy working in a collaborative
+              environment and thrive in fast-paced development environments.
             </p>
             <p>
-              When I'm not coding, I enjoy reading up on the latest advancements
-              in web development and experimenting with new technologies. I'm
-              always looking for new ways to improve my skills and take on new
-              challenges.
+              When I&apos;m not coding, I enjoy reading up on the latest
+              advancements in web development and experimenting with new
+              technologies. I&apos;m always looking for new ways to improve my
+              skills and take on new challenges.
             </p>
             <p>
-              If you're looking for a MERN stack developer who can help you
+              If you&apos;re looking for a MERN stack developer who can help you
               bring your ideas to life, I would love to hear from you. Please
-              don't hesitate to contact me to discuss your project requirements.
+              don&apos;t hesitate to contact me to discuss your project
+              requirements.
             </p>
           </div>
         </div>
