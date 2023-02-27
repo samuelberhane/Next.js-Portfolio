@@ -3,8 +3,11 @@ import { ContactForm, Information } from ".";
 
 const Contact = () => {
   return (
-    <div className="relative px-4 md:px-8 lg:px-12 mt-3 py-4 pb-8" id="Contact">
-      <h1 className="font-[Satisfy] text-4xl lg:text-5xl text-blue-500 font-bold text-center mb-4">
+    <div
+      className="relative px-4 md:px-8 lg:px-12 mt-3 py-7 lg:py-12 pb-8"
+      id="Contact"
+    >
+      <h1 className="font-[Satisfy] text-4xl lg:text-5xl text-blue-500 font-bold text-center mb-4 lg:mb-9">
         Contact
       </h1>
 

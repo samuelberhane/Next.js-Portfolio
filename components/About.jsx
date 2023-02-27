@@ -3,8 +3,8 @@ import { tools } from "@/utils/tools";
 
 const About = () => {
   return (
-    <div className="px-4 md:px-8 lg:px-12 mt-3 py-4" id="About">
-      <h1 className="font-[Satisfy] text-4xl lg:text-5xl text-blue-500 font-bold mb-2 lg:mb-5 text-center">
+    <div className="px-4 md:px-8 lg:px-12 mt-3 py-7 lg:py-12" id="About">
+      <h1 className="font-[Satisfy] text-4xl lg:text-5xl text-blue-500 font-bold mb-4 lg:mb-7 text-center">
         About me
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8 lg:gap-18">

@@ -1,10 +1,9 @@
-import { services } from "@/utils/services";
 import { motion } from "framer-motion";
 
 const Services = () => {
   return (
-    <div className="px-4 md:px-8 lg:px-12 mt-3 py-4" id="Services">
-      <h1 className="font-[Satisfy] text-4xl lg:text-5xl text-blue-500 font-bold mb-6 text-center">
+    <div className="px-4 md:px-8 lg:px-12 mt-3 py-7 lg:py-5" id="Services">
+      <h1 className="font-[Satisfy] text-4xl lg:text-5xl text-blue-500 font-bold mb-4 lg:mb-7 text-center">
         Services
       </h1>
       <div className="flex justify-center flex-col md:flex-row gap-6 items-center">
