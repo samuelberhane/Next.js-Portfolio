@@ -3,13 +3,12 @@ import { BsFillSunFill } from "react-icons/bs";
 import { useState } from "react";
 import { useModeContext } from "@/context/ModeContext";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
 const Header = () => {
   const { dispatch, darkTheme } = useModeContext();
   const [rightPosition, setRightPosition] = useState(true);
-  const [isOn, setIsOn] = useState(false);
 
-  const toggleSwitch = () => setIsOn(!isOn);
   const changeMode = () => {
     setRightPosition((prev) => !prev);
     dispatch({ type: "CHANGE_MODE" });
@@ -20,9 +19,16 @@ const Header = () => {
         darkTheme ? "bg-gray-900" : "bg-gray-100"
       } shadow`}
     >
-      <h1 className="font-[Satisfy] text-3xl lg:text-4xl text-blue-500 font-bold">
+      <Link
+        to="Home"
+        spy={true}
+        smooth={true}
+        offset={-200}
+        duration={1000}
+        className="font-[Satisfy] text-3xl lg:text-4xl text-blue-500 font-bold cursor-pointer"
+      >
         Samuel Brhane
-      </h1>
+      </Link>
 
       <div
         className={`w-[100px] h-[40px] bg-blue-100 flex items-center ${

@@ -48,7 +48,7 @@ const Intro = ({ text }) => {
         </Link>
       </motion.button>
 
-      <div className="flex  justify-center gap-4 md:gap-8 mt-7 text-3xl md:text-5xl text-blue-500">
+      <div className="flex  justify-start gap-4 md:gap-8 mt-7 text-3xl md:text-5xl text-blue-500">
         {/* Github */}
         <a
           href="https://github.com/samuelberhane"
