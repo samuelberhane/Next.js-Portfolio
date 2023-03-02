@@ -22,6 +22,10 @@ export const tools = [
     image: "/image/skill/mui.png",
   },
   {
+    name: "chatgpt",
+    image: "/image/skill/chatgpt.jpg",
+  },
+  {
     name: "netlify",
     image: "/image/skill/netlify.png",
   },

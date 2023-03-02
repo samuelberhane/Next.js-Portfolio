@@ -4,6 +4,10 @@ export const frameworks = [
     image: "/image/skill/react.png",
   },
   {
+    name: "react native",
+    image: "/image/skill/native.png",
+  },
+  {
     name: "next.js",
     image: "/image/skill/next.png",
   },
