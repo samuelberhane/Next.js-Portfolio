@@ -32,7 +32,7 @@ const Header = () => {
 
       <div
         className={`w-[100px] h-[40px] bg-blue-100 flex items-center ${
-          rightPosition ? "justify-end" : "justify-start"
+          rightPosition ? "justify-start" : "justify-end"
         } rounded-3xl p-2 cursor-pointer relative`}
         onClick={changeMode}
       >
