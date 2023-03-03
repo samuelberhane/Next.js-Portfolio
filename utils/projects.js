@@ -25,7 +25,7 @@ export const projects = [
     description:
       "The Youtube clone web application, built using React.js and Firebase, is a platform that allows users to watch, search and comment on videos. It provides related video suggestions, channel details, and easy-to-use commenting functionality that is stored in Firebase. The application's frontend is fast and responsive, while its backend infrastructure ensures the security and reliability of user data. Overall, it's a great option for anyone looking for a Youtube-like experience.",
     image: "/image/project/youtube.png",
-    liveUrl: "https://react-youtube-clone-samuelberhane.vercel.app",
+    liveUrl: "https://youtube-palm.vercel.app",
     gitUrl: "https://github.com/samuelberhane/react-youtube-clone",
     tools: ["React.js", "Firebase"],
   },
