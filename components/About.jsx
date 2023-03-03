@@ -9,37 +9,61 @@ const About = () => {
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8 lg:gap-18">
         <div className="mt-4">
-          <div className="lg:w-[80%] text-sm font-light xl:text-[16px] flex flex-col lg:gap-5 gap-2">
+          <div className="lg:w-[80%] text-sm font-light flex flex-col lg:gap-5 gap-2">
             <p>
-              Hello! I&apos;m Samuel Brhane, a Mern stack developer with the
-              experience in developing full-stack web applications. My expertise
-              mainly lies in working with the MERN stack, which includes
-              MongoDB, Express.js, React, and Node.js.
+              Hello, I am a self-taught software developer with expertise in
+              full stack web development and mobile app development. I have
+              acquired my coding and programming skills by reading books,
+              exploring different framework documentations, utilizing YouTube
+              tutorials and online courses like Coursera and edX, and
+              participating in boot camps such as freeCodeCamp. My knowledge and
+              experience lies in the MERN stack, which includes MongoDB,
+              Express.js, React, and Node.js, as well as Next.js and Firebase.
+              Additionally, I have hands-on experience in developing
+              cross-platform mobile applications using React Native.
             </p>
             <p>
-              During my career, I have developed applications using React and
-              Redux for the front-end, Node.js and Firebase for the back-end,
-              and MongoDB for the database. I have experience integrating
-              third-party APIs and services to create dynamic web applications.
-              I&apos;m also familiar with other popular front-end frameworks and
-              libraries such as Next.js and React Native.
+              I have successfully worked on various cross-platform development
+              projects as well as small and medium-sized businesses&#39;
+              projects, ranging from creating customized websites to developing
+              complex web applications. My proficiency includes integrating
+              third-party APIs and services, and I am constantly upgrading my
+              skills with the latest technologies and techniques.
             </p>
             <p>
-              In addition to my technical skills, I&apos;m a strong communicator
-              and a problem-solver. I enjoy working in a collaborative
-              environment and thrive in fast-paced development environments.
+              Apart from my technical skills, I possess excellent communication
+              skills and problem-solving abilities. I enjoy working in a
+              collaborative environment and thrive in fast-paced development
+              environments. When I am not coding, I read up on the latest
+              advancements in web and mobile app development and experiment with
+              new technologies. I firmly believe in continuous learning and
+              self-improvement and always look for ways to expand my knowledge
+              and skills.
             </p>
             <p>
-              When I&apos;m not coding, I enjoy reading up on the latest
-              advancements in web development and experimenting with new
-              technologies. I&apos;m always looking for new ways to improve my
-              skills and take on new challenges.
+              If you are searching for a passionate and committed self-taught
+              software developer with expertise in full stack web development
+              and mobile app development, please do not hesitate to contact me
+              to discuss your project requirements. I am confident in my ability
+              to deliver high-quality work and exceed your expectations.
             </p>
             <p>
-              If you&apos;re looking for a MERN stack developer who can help you
-              bring your ideas to life, I would love to hear from you. Please
-              don&apos;t hesitate to contact me to discuss your project
-              requirements.
+              Let&#39;s work together to turn your vision into reality! Whether
+              you need a custom website, complex web application or
+              cross-platform mobile application, I am up for the challenge. I
+              will work closely with you to understand your requirements and
+              create a solution that meets your needs and exceeds your
+              expectations.
+            </p>
+            <p>
+              I take pride in my work and am committed to delivering
+              high-quality, efficient and cost-effective solutions. I am
+              dedicated to helping my clients achieve their goals and am
+              passionate about delivering value to their businesses. If you are
+              looking for a self-taught software developer who is committed to
+              excellence and passionate about creating impactful solutions, look
+              no further. Contact me today to take the first step towards
+              bringing your ideas to life.
             </p>
           </div>
         </div>
