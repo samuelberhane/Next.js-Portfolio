@@ -32,7 +32,6 @@ const Banner = () => {
 
   const tick = () => {
     let i = skillText % rotateSkills.length;
-    console.log("i", i);
     let fullText = rotateSkills[i];
     let updatedText = deleting
       ? fullText.substring(0, text.length - 1)

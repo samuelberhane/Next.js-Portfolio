@@ -17,7 +17,7 @@ const ProjectCard = ({ name, description, image, liveUrl, gitUrl }) => {
   opacity-0 w-full bg-[rgba(71,110,160,0.7)] h-full group-hover:top-[50%] group-hover:opacity-100 z-50 text-white"
         >
           <div className="px-4 md:px-8 lg:px-10 flex flex-col justify-center h-full w-full">
-            <p className="font-semibold">{description}</p>
+            <p className="font-light text-sm">{description.slice(0, 300)}...</p>
             <div className="flex justify-center items-center gap-4 mt-5 text-black">
               <a
                 href={gitUrl}
