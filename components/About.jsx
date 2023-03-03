@@ -8,7 +8,7 @@ const About = () => {
         About me
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-8 lg:gap-18">
-        <div className="mt-4">
+        <div className="mt-1">
           <div className="lg:w-[80%] text-sm font-light flex flex-col lg:gap-5 gap-2">
             <p>
               Hello, I am a self-taught software developer with expertise in

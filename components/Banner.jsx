@@ -11,10 +11,13 @@ const Banner = () => {
 
   const rotateSkills = [
     "Full Stack Web Developer",
-    "Mern Stack Developer",
+    "Mobile App Developer",
+    "MERN Stack Developer",
+    "Frontend Developer",
+    "Backend Developer",
     "React Developer",
     "Next.js Developer",
-    "Web Designer",
+    "React-Native Developer",
   ];
 
   useEffect(() => {
