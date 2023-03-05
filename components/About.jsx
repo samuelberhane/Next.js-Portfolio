@@ -20,7 +20,7 @@ const About = () => {
               experience lies in the MERN stack, which includes MongoDB,
               Express.js, React, and Node.js, as well as Next.js and Firebase.
               Additionally, I have hands-on experience in developing
-              cross-platform mobile applications using React Native.
+              cross-platform mobile applications using Flutter.
             </p>
             <p>
               I have successfully worked on various cross-platform development

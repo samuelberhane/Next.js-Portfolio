@@ -19,8 +19,9 @@ const Intro = ({ text }) => {
         </span>
       </p>
       <p className="mt-5 pl-3 font-light text-sm md:text-[17px]">
-        I am Full Stack developer specialized in design,development and
-        deployment of MERN stack web applications.
+        I am Full Stack web and mobile app developer specialized in
+        design,development and deployment of MERN stack web and cross-platform
+        mobile applications.
       </p>
       <motion.button
         transition={{
