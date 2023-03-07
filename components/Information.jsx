@@ -16,9 +16,7 @@ const Information = () => {
         <h1 className="text-lg md:text-xl lg:text-2xl text-center mt-1 text-blue-500 font-bold">
           Samuel Brhane
         </h1>
-        <p className="my-1 text-center font-bold text-lg">
-          Full Stack Web Developer
-        </p>
+        <p className="my-1 text-center font-bold text-lg">Software Developer</p>
         <div className="flex items-center flex-col gap-2">
           <p className="flex items-center gap-1">
             <ImLocation2 className="text-blue-500" /> Addis Ababa, Ethiopia

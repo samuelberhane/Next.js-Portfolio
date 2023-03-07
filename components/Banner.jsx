@@ -86,6 +86,7 @@ const Banner = () => {
               text2="Developer"
             />
           </motion.div>
+
           <motion.div
             initial={{ right: -20, opacity: 0.5 }}
             whileInView={{ right: 2, opacity: 1 }}
@@ -98,11 +99,12 @@ const Banner = () => {
             className="absolute -top-10"
           >
             <Floating
-              image="/image/react.png"
-              text1="React"
+              image="/image/mobile.jpg"
+              text1="Mobile App"
               text2="Developer"
             />
           </motion.div>
+
           <motion.div
             initial={{ left: -20, opacity: 0.5 }}
             whileInView={{ left: 2, opacity: 1 }}
@@ -115,11 +117,12 @@ const Banner = () => {
             className="absolute -bottom-16"
           >
             <Floating
-              image="/image/mern.png"
-              text1="Mern Stack"
+              image="/image/native.png"
+              text1="React Native"
               text2="Developer"
             />
           </motion.div>
+
           <motion.div
             initial={{ right: -20, opacity: 0.5 }}
             whileInView={{ right: 2, opacity: 1 }}

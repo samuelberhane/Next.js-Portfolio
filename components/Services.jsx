@@ -14,15 +14,15 @@ const Services = () => {
           className="relative md:w-1/3 px-5 py-20 text-center text-sm md:text-[17px] border-4 border-yellow-400 rounded-2xl"
         >
           <img
-            src="/image/service/design.jpg"
+            src="/image/service/mobile.png"
             alt="serviceImage"
             className="w-full rounded-md"
           />
-          <p className="font-bold mt-2">Web Design</p>
+          <p className="font-bold mt-2">Mobile App Development</p>
           <p className="text-sm font-light mt-2">
-            Prepare, design and maintain the structure, the overall layout and
-            aesthetic for websites. write coding for the entire website, create
-            website templates and run tests to preview layouts.
+            Designing, developing, and maintaining mobile applications for
+            various platforms like iOS and Android. Create wireframes and
+            prototypes using React Native.
           </p>
         </motion.div>
         <div className="md:w-1/3  text-center text-sm md:text-[17px] flex flex-col gap-4">
