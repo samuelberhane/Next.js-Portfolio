@@ -11,6 +11,27 @@ export const projects = [
   },
   {
     id: 2,
+    name: "Office Dashboard",
+    description: `Office is a powerful web application that serves as an admin dashboard created using the MERN stack, which includes MongoDB, ExpressJS, ReactJS, and NodeJS. The application provides a comprehensive overview of daily, monthly, and yearly sales statistics for customers, along with a map displaying the number of customers in each country and pie charts for sales by category. Additionally, it also displays all transactions made by each customer using a line chart.
+
+      The primary objective of Office is to assist businesses in managing their sales data effectively. The dashboard is designed to provide a user-friendly interface that enables business owners and administrators to monitor the performance of their business and make data-driven decisions.
+      
+      One of the key features of the application is the line chart, which displays daily, monthly, and yearly sales statistics. This chart provides a quick and easy way to see how the business is performing over time and helps to identify trends that could impact sales. The line chart is interactive, allowing users to zoom in or out and adjust the timeframe displayed.
+      
+      In addition to the line chart, the application also includes a map that shows the number of customers in each country. This feature is particularly useful for businesses that operate internationally, as it enables them to identify their customer base in different parts of the world. The map is color-coded, making it easy to identify which countries have the most customers.
+      
+      The application also includes pie charts that display sales by category. This feature enables businesses to identify which products or services are selling the most and which ones are not performing well. This information can be used to adjust marketing strategies and make other changes to improve overall sales performance.
+      
+      Along with sales statistics, Office also displays all transactions made by each customer using a line chart. This feature allows business owners and administrators to track the buying patterns of individual customers and identify any trends or anomalies. The line chart displays the transaction history of a particular customer over time, showing the amount spent and the date of each transaction.
+      
+      In conclusion, Office is a powerful tool for businesses that want to manage their sales data effectively. With its user-friendly interface and powerful features, it provides a comprehensive overview of sales data and enables businesses to make data-driven decisions. By analyzing transaction history data, businesses can improve their customer retention, increase sales, and identify areas for improvement.`,
+    image: "/image/project/admin.png",
+    liveUrl: "https://office-admin-dashboard.netlify.app",
+    gitUrl: "https://github.com/samuelberhane/Mern-admin-dashboard",
+    tools: ["React.js", "Node.js"],
+  },
+  {
+    id: 2,
     name: "Talkline",
     description:
       "Talkline is a social media web application created using React.js, Node.js, Express, and MongoDB. It allows users to register, create and post content, follow and unfollow friends, update profiles, and chat with friends in real-time. Talkline's backend ensures that the application is fast, reliable, and scalable. With its user-friendly interface, Talkline is an ideal platform for social interaction, making it a great choice for those looking for a social media platform similar to Facebook.",
