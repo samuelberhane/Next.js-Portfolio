@@ -26,7 +26,7 @@ export const projects = [
       
       In conclusion, Office is a powerful tool for businesses that want to manage their sales data effectively. With its user-friendly interface and powerful features, it provides a comprehensive overview of sales data and enables businesses to make data-driven decisions. By analyzing transaction history data, businesses can improve their customer retention, increase sales, and identify areas for improvement.`,
     image: "/image/project/admin.png",
-    liveUrl: "https://office-admin-dashboard.netlify.app",
+    liveUrl: "https://office-admin-dashboard.vercel.app",
     gitUrl: "https://github.com/samuelberhane/Mern-admin-dashboard",
     tools: ["React.js", "Node.js"],
   },

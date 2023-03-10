@@ -27,4 +27,8 @@ export const frameworks = [
     name: "firebase",
     image: "/image/skill/firebase.png",
   },
+  {
+    name: "jest",
+    image: "/image/skill/jest.png",
+  },
 ];

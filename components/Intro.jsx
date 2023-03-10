@@ -19,9 +19,9 @@ const Intro = ({ text }) => {
         </span>
       </p>
       <p className="mt-5 pl-3 font-light text-sm md:text-[17px]">
-        I am Full Stack web and mobile app developer specialized in
-        design,development and deployment of MERN stack web and cross-platform
-        mobile applications.
+        I am Full Stack web and mobile app developer specialized in design,
+        development and deployment of MERN stack web and cross-platform mobile
+        applications.
       </p>
       <motion.button
         transition={{
@@ -35,7 +35,7 @@ const Intro = ({ text }) => {
           scale: [0.9, 1, 0.9, 1],
           backgroundColor: "#4FA6F6",
         }}
-        className="mt-7  rounded-3xl text-white font-bold text-xl md:text-2xl px-12 shadow-xl  py-3 ml-3"
+        className="mt-7 rounded-xl text-white font-light text-lg md:text-xl px-6 shadow-xl  py-2 ml-3"
       >
         <Link
           to="Contact"
@@ -47,6 +47,22 @@ const Intro = ({ text }) => {
         >
           Contact
         </Link>
+      </motion.button>
+      <motion.button
+        transition={{
+          duration: 1,
+          ease: "easeInOut",
+          repeat: Infinity,
+          repeatDelay: 1,
+        }}
+        initial={{ backgroundColor: "blue" }}
+        animate={{
+          scale: [0.9, 1, 0.9, 1],
+          backgroundColor: "#4FA6F6",
+        }}
+        className="mt-7 rounded-xl text-white font-light text-lg md:text-xl px-6 shadow-xl  py-2 ml-3"
+      >
+        <a href="samuelCV.pdf">Resume</a>
       </motion.button>
 
       <div className="flex  justify-start gap-4 md:gap-8 mt-7 text-3xl md:text-5xl text-blue-500">

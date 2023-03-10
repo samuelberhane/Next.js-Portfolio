@@ -1,6 +1,5 @@
 import { IoLogoWhatsapp } from "react-icons/io";
 import { AiFillGithub } from "react-icons/ai";
-import { SiMessenger } from "react-icons/si";
 import { BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { useModeContext } from "@/context/ModeContext";
