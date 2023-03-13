@@ -25,7 +25,7 @@ const About = () => {
                     <img
                       src={skill?.image}
                       alt="skillImage"
-                      className="w-14 h-14 xl:w-16 xl:h-16 rounded-full"
+                      className="w-14 h-14 xl:w-16 xl:h-16 rounded-xl"
                     />
                   </div>
                 </div>
@@ -44,7 +44,7 @@ const About = () => {
                     <img
                       src={skill?.image}
                       alt="skillImage"
-                      className="w-14 h-14 xl:w-16 xl:h-16 rounded-full"
+                      className="w-14 h-14 xl:w-16 xl:h-16 rounded-xl"
                     />
                   </div>
                 </div>

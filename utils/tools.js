@@ -22,6 +22,14 @@ export const tools = [
     image: "/image/skill/mui.png",
   },
   {
+    name: "docker",
+    image: "/image/skill/docker.png",
+  },
+  {
+    name: "jira",
+    image: "/image/skill/jira.jpg",
+  },
+  {
     name: "chatgpt",
     image: "/image/skill/chatgpt.jpg",
   },
