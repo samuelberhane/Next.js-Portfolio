@@ -11,9 +11,9 @@ const FloatingNav = () => {
 
   const Menus = [
     { name: "Home", icon: <AiFillHome />, position: "translate-x-0" },
-    { name: "About", icon: <HiBriefcase />, position: "translate-x-[60px]" },
+    { name: "Skill", icon: <HiBriefcase />, position: "translate-x-[60px]" },
     {
-      name: "Portfolio",
+      name: "Projects",
       icon: <RiProjector2Fill />,
       position: "translate-x-[116px]",
     },

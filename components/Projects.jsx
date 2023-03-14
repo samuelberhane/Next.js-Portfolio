@@ -22,7 +22,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="px-4 md:px-8 lg:px-12 mb-10 py-7" id="Portfolio">
+    <div className="px-4 md:px-8 lg:px-12 mb-10 py-7" id="Projects">
       <h1 className="font-[Satisfy] text-4xl lg:text-5xl text-blue-500 font-bold mb-4 lg:mb-7 text-center">
         Projects
       </h1>
