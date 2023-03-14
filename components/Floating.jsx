@@ -6,7 +6,7 @@ const Floating = ({ image, text1, text2 }) => {
   return (
     <div
       className={`flex items-center gap-4 shadow-sm rounded-2xl px-6 md:px-8 xl:px-10 2xl:px-12 md:py-2 z-40 ${
-        darkTheme ? "bg-gray-900 text-white" : "bg-gray-100 text-black"
+        darkTheme ? "bg-gray-900 text-white" : "bg-white text-black"
       } py-1`}
     >
       <img

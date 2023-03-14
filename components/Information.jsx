@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 const Information = () => {
   return (
     <div className="flex justify-center">
-      <div className="shadow-lg shadow-blue-100 p-6 w-[300px]">
+      <div className="shadow-lg  p-6 w-[300px]">
         <div className="flex justify-center">
           <img
             src="/image/person.jpg"

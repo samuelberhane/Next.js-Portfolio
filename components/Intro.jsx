@@ -64,46 +64,6 @@ const Intro = ({ text }) => {
       >
         <a href="samuelCV.pdf">Resume</a>
       </motion.button>
-
-      <div className="flex  justify-start gap-4 md:gap-8 mt-7 text-3xl md:text-5xl text-blue-500">
-        {/* Github */}
-        <a
-          href="https://github.com/samuelberhane"
-          target="_blank"
-          rel="noreferrer"
-          className="hover:scale-110 hover:text-blue-400"
-        >
-          <AiFillGithub />
-        </a>
-
-        {/* Linkedin */}
-        <a
-          className="hover:scale-110 hover:text-blue-400"
-          href="https://www.linkedin.com/in/samuel-brhane-406759267/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <AiFillLinkedin />
-        </a>
-
-        {/* Email */}
-        <a
-          className="hover:scale-110 hover:text-blue-400"
-          href={`mailto:1samuelbrhane@gmail.com?`}
-        >
-          <MdEmail />
-        </a>
-
-        {/* Whatsapp */}
-        <a
-          className="hover:scale-110 hover:text-blue-400"
-          href=" https://wa.me/251945964269"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <IoLogoWhatsapp />
-        </a>
-      </div>
     </div>
   );
 };
